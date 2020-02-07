@@ -8,5 +8,5 @@
 #SBATCH --job-name=hw1
 #SBATCH --output=hw1_%j.out
 
-manual load fastqc/0.11.8
-fastqc Scer3.fa
+module load fastqc/0.11.8
+fastqc cdg21c1_R1.fastq
